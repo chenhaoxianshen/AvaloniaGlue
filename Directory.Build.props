@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <TargetDotnetVersion>net8.0</TargetDotnetVersion>
+    <Platforms>x64;ARM64</Platforms>
+    <AvaloniaVersion>11.0.10</AvaloniaVersion>
+    <CefGlueVersion>120.6099.207</CefGlueVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <FileVersion>2.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+    <Authors>OutSystems</Authors>
+    <Product>AvaloniaCefGlue</Product>
+    <Copyright>Copyright © OutSystems 2024</Copyright>
+    <PackageProjectUrl>https://github.com/OutSystems/WebView</PackageProjectUrl>
+    <PackageOutputPath>$(MSBuildProjectDirectory)\..\nuget</PackageOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Platform)' == '' or '$(Platform)' == 'x64'">
+    <PackageSuffix />
+    <CefGluePackageSuffix />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Platform)' == 'ARM64'">
+    <PackageSuffix>-ARM64</PackageSuffix>
+    <CefGluePackageSuffix>.ARM64</CefGluePackageSuffix>
+  </PropertyGroup>
+</Project>
