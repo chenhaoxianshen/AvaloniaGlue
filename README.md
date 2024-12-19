@@ -50,6 +50,23 @@ The versioning system works as follows:
 
 Whenever you fix a bug, please increase the patch version. \
 Whenever you bring a new feature, please increase the major version. \
+
+===========================================================================================================================
+## 此项目引用的cef版本是120.1.8
+- 去官网下载https://cef-builds.spotifycdn.com/index.html 构建此版本
+- 复制resource中的文件到release目录，最外层文件夹命名windows对应winCefNet linux对应cefnet
+- 新建一个Avalonia项目，引用nuget包chenh_CefGlue.Avalonia
+- 页面中使用
+- xmlns:webview="clr-namespace:WebViewControl;assembly=WebViewControl.Avalonia"
+- <webview:WebView x:Name="webview" Focusable="True" Address="{Binding CurrentAddress}" />
+
+- 略显粗糙，有空在优化
+
+
+14.10.0.1161
+系统词频: 630211129
+编译时间: Oct 18 2024 10:34:15
+
 Use the minor version for the current cef version.
 
 ## TODO
