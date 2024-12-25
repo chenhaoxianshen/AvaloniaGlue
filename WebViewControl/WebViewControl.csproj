@@ -25,9 +25,5 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  
-  <ItemGroup>
-    <PackageReference PrivateAssets="None" Include="CefGlue.Wpf$(CefGluePackageSuffix)" />
-  </ItemGroup>
 
 </Project>
