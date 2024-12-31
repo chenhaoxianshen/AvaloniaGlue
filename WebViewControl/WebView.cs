@@ -342,6 +342,11 @@ namespace WebViewControl {
 
         private void OnWebViewLoadEnd(object sender, LoadEndEventArgs e) {
             var url = e.Frame.Url;
+            e.Frame.GetSource(new MyStringVisitor("HTML Source"));
+
+            e.Frame.GetText(new MyStringVisitor("Page Text"));
+
+
             if (UrlHelper.IsChromeInternalUrl(url)) {
                 return;
             }
