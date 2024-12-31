@@ -36,9 +36,6 @@ namespace WebViewControl {
             var cefSettings = new CefSettings {
                 LogSeverity = string.IsNullOrWhiteSpace(settings.LogFile) ? CefLogSeverity.Disable : (settings.EnableErrorLogOnly ? CefLogSeverity.Error : CefLogSeverity.Verbose),
                 LogFile = settings.LogFile,
-                LocalesDirPath = System.IO.Path.Combine(cefPath, "locales"),
-                ResourcesDirPath = cefPath,
-                NoSandbox = true,
                 UncaughtExceptionStackSize = 100, // enable stack capture
                 CachePath = settings.CachePath, // enable cache for external resources to speedup loading
                 WindowlessRenderingEnabled = settings.OsrEnabled,

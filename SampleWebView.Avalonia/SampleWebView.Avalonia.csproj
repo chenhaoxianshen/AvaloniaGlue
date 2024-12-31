@@ -41,10 +41,11 @@
 
   <ItemGroup>
     <PackageReference Include="Ab4d.SharpEngine.AvaloniaUI" />
-    <PackageReference Include="Avalonia.Desktop" />
+    <PackageReference Include="Avalonia" />
     <PackageReference Include="Avalonia.ReactiveUI" />
     <PackageReference Include="Avalonia.Themes.Fluent" />
     <PackageReference Include="Dotnet.Bundle" />
+    <PackageReference Include="System.Windows.Extensions" />
   </ItemGroup>
 
   <ItemGroup>

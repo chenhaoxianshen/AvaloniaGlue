@@ -68,6 +68,7 @@ Global
 		{1B789CDF-1B73-450B-BA1D-EC265D498EFA}.ReleaseWPFAvalonia|ARM64.ActiveCfg = ReleaseAvaloniaRemoteDebugSupport|Any CPU
 		{1B789CDF-1B73-450B-BA1D-EC265D498EFA}.ReleaseWPFAvalonia|x64.ActiveCfg = ReleaseAvaloniaRemoteDebugSupport|Any CPU
 		{68B0F20F-77AE-4819-83CB-92C9C78E8E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B0F20F-77AE-4819-83CB-92C9C78E8E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68B0F20F-77AE-4819-83CB-92C9C78E8E05}.Debug|ARM64.ActiveCfg = Debug|Any CPU
 		{68B0F20F-77AE-4819-83CB-92C9C78E8E05}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{68B0F20F-77AE-4819-83CB-92C9C78E8E05}.DebugWindowlessRender|Any CPU.ActiveCfg = Debug|Any CPU
