@@ -66,8 +66,8 @@
     <!--When we upload Avalonia here, we should increase the version of both WebViewControl.Avalonia as well as ReactViewControl.Avalonia-->
     <PackageReference Include="Avalonia" />
     <PackageReference Include="Avalonia.ReactiveUI" />
-    <PackageReference Include="CefGlue.Avalonia" />
     <PackageReference Include="Microsoft.CSharp" />
     <PackageReference Include="System.Runtime.Loader" />
+    <PackageReference Include="WebViewControl-Avalonia" />
   </ItemGroup>
 </Project>
